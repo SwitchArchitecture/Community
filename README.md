@@ -11,9 +11,11 @@ This script will create a utility stored procedure that will drop all #temporary
 
 More details on it's purpose and usage may be found in our article ["Say goodbye to dropping #temporary tables"](http://www.switcharch.com/say_goodbye_to_dropping_sql_temporary_tables/).
 
-__Repository Location:__
+__Download__
 
-[/Commmunity/DropTempTables/](https://github.com/SwitchArchitecture/Community/tree/master/SQL/DropTempTables)
+[View Source Code](https://github.com/SwitchArchitecture/Community/blob/master/SQL/DropTempTables/Install%20usp_Utility_DropTempTables.sql)
+
+[Download](https://cdn.rawgit.com/SwitchArchitecture/Community/master/SQL/DropTempTables/Install%20usp_Utility_DropTempTables.sql)
 
 __Installation Steps:__
 
