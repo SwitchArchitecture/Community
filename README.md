@@ -9,19 +9,21 @@ __Description:__
 
 This script will create a utility stored procedure that will drop all #temporary tables that exist for the current session. It's helpful when you're debugging code that creates multiple #temporary tables and you need to execute the code multiple times.
 
-More details on it's purpose and usage may be found in this article.
+More details on it's purpose and usage may be found in our article ["Say goodbye to dropping #temporary tables"](http://www.switcharch.com/say_goodbye_to_dropping_sql_temporary_tables/).
 
 __Repository Location:__
 
-/Commmunity/DropAllTemporaryTables/
+[/Commmunity/DropAllTemporaryTables/](https://github.com/SwitchArchitecture/Community/tree/master/SQL/DropTempTables)
 
 __Installation Steps:__
 
-Run "Install [usp_Utility_DropAllTemporaryTables]"
+Run "Install [usp_Utility_DropAllTemporaryTables].sql"
 
 __Usage Example:__
 
+```sql
 EXEC [dbo].[usp_Utility_DropTemporaryTablesForSession];
+```
 
 __Tips:__
 
