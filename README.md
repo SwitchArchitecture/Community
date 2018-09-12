@@ -2,7 +2,7 @@ __Hello!__
 
 This repository contains utilities, tools, and queries developed by [Switch Architecture](http://www.switcharch.com) and shared with the community to help other developers, architects, and administrators.
 
-Tool: usp_Utility_DropAllTemporaryTables
+Tool: usp_Utility_DropTempTables
 ------
 
 __Description:__
@@ -13,18 +13,14 @@ More details on it's purpose and usage may be found in our article ["Say goodbye
 
 __Repository Location:__
 
-[/Commmunity/DropAllTemporaryTables/](https://github.com/SwitchArchitecture/Community/tree/master/SQL/DropTempTables)
+[/Commmunity/DropTempTables/](https://github.com/SwitchArchitecture/Community/tree/master/SQL/DropTempTables)
 
 __Installation Steps:__
 
-Run "Install [usp_Utility_DropAllTemporaryTables].sql"
+Run "Install [usp_Utility_DropTempTables].sql"
 
 __Usage Example:__
 
 ```sql
-EXEC [dbo].[usp_Utility_DropTemporaryTablesForSession];
+EXEC [dbo].[usp_Utility_DropTempTables];
 ```
-
-__Tips:__
-
-Create the stored procedure in the [master] database and name it [sp_DropAllTemporaryTables] if you would like to run it from any database without context.
