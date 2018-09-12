@@ -17,7 +17,7 @@ __Repository Location:__
 
 __Installation Steps:__
 
-Run "Install [usp_Utility_DropTempTables].sql"
+Run "Install [usp_Utility_DropTempTables].sql" _Be sure to change to the appropriate database context first_
 
 __Usage Example:__
 
